@@ -19,9 +19,10 @@ library
   build-depends:       base >= 4.7 && < 5
                      , aeson
                      , base64-bytestring
+                     , bytestring
                      , classy-prelude
                      , clientsession
-                     , emailaddress
+                     -- , emailaddress
                      , envelope
                      , from-sum
                      , filepath
@@ -45,6 +46,7 @@ library
                      , scotty
                      , Spock
                      , Spock-core
+                     , text
                      , time
                      , transformers
                      , transformers-base
